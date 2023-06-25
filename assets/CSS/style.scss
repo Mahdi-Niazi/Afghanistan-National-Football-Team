@@ -1,6 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap');
+
 $temp-black-color: #272a31;
 $temp-orange-color: #ec5242;
 $temp-gray-color: #d3d3d3;
+$intro-bg: url('/assets/images/Banner.jpg');
+
+@mixin bg{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body{
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    font-family: 'lato', sans-serif;
+}
  
 .top-nav{
     background-color: $temp-black-color;
@@ -31,6 +47,41 @@ $temp-gray-color: #d3d3d3;
                 border: 2px solid $temp-orange-color;
             }
         }
+}
+
+.intro-sec{
+    background-image: $intro-bg ;
+    @include bg;
+    
+    .header-container{
+        height: 80vh;
+    }
+    
+}
+
+@mixin font-cocogoose--uppercase {
+  font-family: 'COCOGOOSE', 'Assistant', sans-serif;
+  text-transform: uppercase;
+}
+.intro-header{
+    background: url("../../assets/images/intro-header-text-bg.png") no-repeat;
+    background-size: 100vw;
+    color: transparent;
+    background-clip: text;
+}
+.intro-p{
+    p{
+        font-size: 1.45rem;
+        color:$temp-orange-color;
+    }
+    h1{
+        @include font-cocogoose--uppercase();
+    }
+}
+
+.header-description{
+    border: 1px solid white;
+    background-color: $temp-gray-color;
 }
 $breakpoint-tablet: 768px;
 @media (max-width: $breakpoint-tablet) {

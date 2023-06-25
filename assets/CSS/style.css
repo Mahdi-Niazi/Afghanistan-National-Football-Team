@@ -1,3 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap");
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: "lato", sans-serif;
+}
+
 .top-nav {
   background-color: #272a31;
 }
@@ -26,6 +35,37 @@
 .main-nav .compaign a {
   color: #ec5242;
   border: 2px solid #ec5242;
+}
+
+.intro-sec {
+  background-image: url("/assets/images/Banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.intro-sec .header-container {
+  height: 80vh;
+}
+
+.intro-header {
+  background: url("../../assets/images/intro-header-text-bg.png") no-repeat;
+  background-size: 100vw;
+  color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+
+.intro-p p {
+  font-size: 1.45rem;
+  color: #ec5242;
+}
+.intro-p h1 {
+  font-family: "COCOGOOSE", "Assistant", sans-serif;
+  text-transform: uppercase;
+}
+
+.header-description {
+  border: 1px solid white;
+  background-color: #d3d3d3;
 }
 
 @media (max-width: 768px) {
