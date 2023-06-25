@@ -1,0 +1,38 @@
+.top-nav {
+  background-color: #272a31;
+}
+.top-nav a {
+  color: white;
+  font-size: 12px;
+}
+.top-nav a:hover {
+  color: #d3d3d3;
+}
+
+.top-nav-container {
+  height: 20px;
+}
+
+.main-nav {
+  background-color: white;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 20px 0 rgba(0, 0, 0, 0.1);
+}
+.main-nav .container {
+  height: 60px;
+}
+.main-nav .compaign {
+  margin-left: 55px;
+}
+.main-nav .compaign a {
+  color: #ec5242;
+  border: 2px solid #ec5242;
+}
+
+@media (max-width: 768px) {
+  .top-nav {
+    display: none;
+  }
+  .compaign {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */
