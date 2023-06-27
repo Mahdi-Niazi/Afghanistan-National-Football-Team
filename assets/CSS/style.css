@@ -7,6 +7,10 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+.selected {
+  color: #ec5242;
+}
+
 .intro-sec {
   position: relative;
   gap: 10px;
@@ -67,7 +71,7 @@ body {
 }
 
 .intro-header {
-  background: url("../../assets/images/Afg-flag.jpeg") no-repeat;
+  background: url("../../assets/images/intro-header-text-bg.png") no-repeat;
   background-size: 100vw;
   color: transparent;
   -webkit-background-clip: text;
@@ -135,12 +139,19 @@ body {
   width: 100%;
   height: 100%;
 }
+.feature-players .players {
+  display: flex;
+}
 .feature-players .border-players {
   border-bottom: 2px solid #d3d3d3;
   width: 20px;
 }
 .feature-players .player-position {
   color: #ec5242;
+}
+
+.logos {
+  display: flex;
 }
 
 .partners {
@@ -184,25 +195,41 @@ body {
   margin: 0 auto;
 }
 
-.history-section h3,
-.history-section p {
+.history-section h3 {
   text-align: center;
 }
-.history-section .bg-card-1 {
+.history-section h2,
+.history-section p {
+  text-align: center;
+  color: white;
+}
+.history-section .history-bg-1 {
   background-image: url("/assets/images/2003.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
-  background-clip: content-box;
-  width: 80%;
-  height: 80%;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  padding: 145px;
 }
-.history-section .bg-card-2 {
+.history-section .history-bg-2 {
   background-image: url("/assets/images/2023.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
-  background-clip: content-box;
-  width: 50%;
-  height: 50%;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  padding: 150px;
+}
+
+.abt-footer {
+  background-color: #272a31;
+}
+.abt-footer h5,
+.abt-footer p {
+  color: white;
+}
+
+.more {
+  display: none;
 }
 
 @media (max-width: 768px) {
@@ -225,11 +252,55 @@ body {
   .main-nav .navbar-nav {
     padding-left: 20px;
   }
+  .main-program .main-cards {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    width: 100%;
+  }
+  .main-program .row-posts {
+    display: flex;
+    flex-direction: column;
+  }
+  .feature-players .players {
+    display: flex;
+  }
+  .more {
+    text-align: center;
+    border: 1px solid #d3d3d3;
+    padding: 15px;
+    display: block;
+  }
+  .more .fa-chevron-down {
+    color: #ec5242;
+    font-size: 14px;
+    margin: 4px;
+  }
   .logo-section .logo {
     width: 100%;
     height: 100%;
   }
-  .history-section .bg-card-1 {
-    padding: 50%;
+  .partners .logos {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .history-section .history-bg-1 {
+    background-image: url("/assets/images/2003.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+  }
+  .history-section .history-bg-2 {
+    background-image: url("/assets/images/2023.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 21px;
+  }
+  .footer {
+    gap: 24px;
   }
 }/*# sourceMappingURL=style.css.map */
