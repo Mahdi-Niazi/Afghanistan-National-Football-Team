@@ -5,7 +5,7 @@
   
   <img src="logo.png" alt="Logo" width="100px" height="80px">  
   <h2> Mohammad Mahdi Niazi<h2> 
-  <h3><b>Portfolio Website</b></h3>
+  <h3><b>Afghanistan FootbalL National Team Website</b></h3>
 
 </div>
 
@@ -32,17 +32,19 @@
 
 
 
-# 📖 [Portfolio Mobile Version] <a name="about-project">
-  This is a portfolio website that we share our career growth. 
-  this project talk about my career, experience and education. 
+# 📖 [Afghanistan FootbalL National Team Website] <a name="about-project">
+  This website introduce the best players of the national team and it provide the programs inside the club and it also provide you to join the club if you interested. 
+
+  Also it provides the upcoming events.
 </a>
 
 
 
-**[Portfolio Project]** is This mobile version portfolio I have written some basic information about me. 
+**[AFNT]** This website can you get to know top players of Afghanistan National Team. 
 
 ## 🛠 Built With <a name="built-with">
-**VS Code**    
+**VS Code** 
+
 </a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -50,10 +52,10 @@
 ### Key Features <a name="key-features"></a>
 
 
-- **[Linters]**
-- **[Weblint]**
-- **[Stylelint]**
-- **[Fontawesome]**
+- **Upcoming Events**
+- **Feature Players**
+- **Partners**
+- **History of the Team**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -69,9 +71,9 @@
 ### Setup 
 
 1. Download the **Zip** file or clone the repo with:
-```bash git clone git@github.com:Mahdi-Niazi/Portfolio_Mobile_Setup.git ``` 
+```bash git clone git@github.com:Mahdi-Niazi/Capstone-Project-HTML-CSS-JS.git ``` 
 2. To access cloned directory run: 
-```bash cd Portfolio_Mobile_Setup ``` 
+```bash cd Capstone-Project-HTML-CSS-JS ``` 
 3. Open it with the live server 
 
 ### Install 
@@ -108,13 +110,14 @@ Test for Linters For tracking linter errors locally you need to follow these ste
 
 
 
--  **[Complete Mobile Version]**
--  **[Complete Desktop Version]**
--  **[Dynamic the website]**
+-  **User Registration**
+-  **Event Booking**
+-  **Full team member**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 ##  Live Demo <a name="live-demo"></a>
-- [Portifolio](https://mahdi-niazi.github.io/Portfolio_Mobile_Setup/)
+
+- [Afghanistan National Team Club]()
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -135,7 +138,7 @@ Give a ⭐️ if you like this project!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank @s2jack
+I would like to thank [Behance Design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) that helped me to do this amazing website.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
