@@ -7,9 +7,10 @@
     height: 100%;
 }
 .top-nav {
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 1042;
+  width: 100%;
   background-color: $temp-black-color;
 
   a {
@@ -26,9 +27,10 @@
 }
 
 .main-nav {
-  position: sticky;
+  position: fixed;
   top: 36px;
   z-index: 1042;
+  width: 100%;
   background-color: white;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 20px 0 rgba(0, 0, 0, 0.1);
 

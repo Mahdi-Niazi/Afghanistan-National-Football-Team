@@ -51,7 +51,7 @@ window.addEventListener('load', () => {
             <div class="col-md-6 align-self-start">
                 <img src="${playerDetails[i].playerImage}" alt="${playerDetails[i].altText}" class="guest-player-1">
             </div>
-            <div class="col-md-6 p-4">
+            <div class="col-md-6  p-4">
                 <h3>${playerDetails[i].fullName}</h3>
             <div class="border-players"></div>
                 <p class="player-position">

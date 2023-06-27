@@ -9,10 +9,11 @@
   }
 
   .main-nav {
-    position: sticky;
+    position: fixed;
     top: 0;
     background: none;
     box-shadow: none;
+    width: 100%;
 
     .collapse-main {
       width: 100%;
@@ -27,7 +28,7 @@
   .main-program {
     .main-cards {
       display: flex;
-      gap: 30px;
+      gap: 5%;
       align-items: center;
       width: 100%;
     }
@@ -35,6 +36,19 @@
     .row-posts {
       display: flex;
       flex-direction: column;
+    }
+    .btn-see-more{
+      background-color: $temp-orange-color;
+      color:white;
+      padding:32px;
+      text-decoration: none; 
+    }
+    .hidden{
+      display: none;
+    }
+    .btn-see-more::after{
+      content: 'Join Afghanistan National Team';
+      font-size: 24px;
     }
   }
 
@@ -46,6 +60,10 @@
     .players {
       display: flex;
     }
+    .guest-player-1 {
+    width: 100%;
+    height: 100%;
+  }
   }
 
   .more-btn {
@@ -73,6 +91,9 @@
     .logos {
       display: flex;
       flex-wrap: nowrap;
+    }
+     .partners-logo {
+      width: 100%;
     }
   }
 

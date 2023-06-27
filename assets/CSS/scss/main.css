@@ -56,13 +56,30 @@
 .main-program .main-txt {
   text-align: center;
 }
+.main-program .txt-orange {
+  color: #ec5242;
+}
+.main-program .icons {
+  font-size: 40px;
+}
 .main-program .main-cards {
   background-color: rgba(211, 211, 211, 0.2196078431);
   text-align: center;
+  padding: 24px;
+  gap: 20px;
+}
+.main-program .main-cards:hover {
+  border: 1px solid white;
+  cursor: pointer;
 }
 .main-program .main-see-txt {
   text-align: center;
+}
+.main-program .btn-see-more {
+  color: white;
+  border-radius: none;
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .feature-players .players-feature {
@@ -98,7 +115,7 @@
   text-align: center;
 }
 .partners .partners-logo {
-  width: 100%;
+  width: 70%;
 }
 
 .logo-section {
@@ -170,9 +187,10 @@
 }
 
 .top-nav {
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 1042;
+  width: 100%;
   background-color: #272a31;
 }
 .top-nav a {
@@ -187,9 +205,10 @@
 }
 
 .main-nav {
-  position: sticky;
+  position: fixed;
   top: 36px;
   z-index: 1042;
+  width: 100%;
   background-color: white;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 20px 0 rgba(0, 0, 0, 0.1);
 }
@@ -218,17 +237,6 @@
   display: none;
 }
 
-.image::before {
-  background-image: url("/assets/images/black-white-checkers.png");
-  position: absolute;
-  content: "";
-  background-size: 60%;
-  height: 60px;
-  width: 60px;
-  display: block;
-  opacity: 0.9;
-}
-
 @media (max-width: 768px) {
   .top-nav {
     display: none;
@@ -237,10 +245,11 @@
     display: none;
   }
   .main-nav {
-    position: sticky;
+    position: fixed;
     top: 0;
     background: none;
     box-shadow: none;
+    width: 100%;
   }
   .main-nav .collapse-main {
     width: 100%;
@@ -251,7 +260,7 @@
   }
   .main-program .main-cards {
     display: flex;
-    gap: 30px;
+    gap: 5%;
     align-items: center;
     width: 100%;
   }
@@ -259,12 +268,29 @@
     display: flex;
     flex-direction: column;
   }
+  .main-program .btn-see-more {
+    background-color: #ec5242;
+    color: white;
+    padding: 32px;
+    text-decoration: none;
+  }
+  .main-program .hidden {
+    display: none;
+  }
+  .main-program .btn-see-more::after {
+    content: "Join Afghanistan National Team";
+    font-size: 24px;
+  }
   .feature-players .players-feature {
     max-height: 500px;
     overflow: hidden;
   }
   .feature-players .players {
     display: flex;
+  }
+  .feature-players .guest-player-1 {
+    width: 100%;
+    height: 100%;
   }
   .more-btn {
     text-align: center;
@@ -286,6 +312,9 @@
   .partners .logos {
     display: flex;
     flex-wrap: nowrap;
+  }
+  .partners .partners-logo {
+    width: 100%;
   }
   .history-section .history-bg-1 {
     background-image: url("/assets/images/2003.jpg");
