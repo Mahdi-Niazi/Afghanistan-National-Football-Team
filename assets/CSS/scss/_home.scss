@@ -1,5 +1,4 @@
 
-
 .intro-sec {
   position: relative;
   gap: 10px;
@@ -51,19 +50,23 @@
   .main-txt {
     text-align: center;
   }
-  .txt-orange{
+
+  .txt-orange {
     color: $temp-orange-color;
   }
-  .icons{
+
+  .icons {
     font-size: 40px;
   }
+
   .main-cards {
     background-color: #d3d3d338;
     text-align: center;
     padding: 24px;
     gap: 20px;
   }
-  .main-cards:hover{
+
+  .main-cards:hover {
     border: 1px solid white;
     cursor: pointer;
   }
@@ -71,20 +74,21 @@
   .main-see-txt {
     text-align: center;
   }
-  .btn-see-more{
-      color:white;
-      border-radius: none;
-      text-decoration: underline;
-      cursor: pointer;
-    }
+
+  .btn-see-more {
+    color: white;
+    border-radius: none;
+    text-decoration: underline;
+    cursor: pointer;
+  }
 }
 
 .feature-players {
- 
-  .players-feature{
+  .players-feature {
     display: flex;
     flex-wrap: wrap;
   }
+
   .guest-player-1 {
     width: 100%;
     height: 100%;
