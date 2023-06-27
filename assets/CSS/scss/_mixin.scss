@@ -1,0 +1,36 @@
+@mixin font-cocogoose--uppercase {
+  font-family: 'COCOGOOSE', 'Assistant', sans-serif;
+  text-transform: uppercase;
+}
+
+@mixin bg ($source) {
+  background-image: $source;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+@mixin txt-border {
+  .txt-border {
+    border-bottom: 1px solid $temp-orange-color;
+    margin: 20px auto;
+    width: 50px;
+  }
+}
+
+@mixin selected-menu {
+  .selected {
+    color: $temp-orange-color;
+  }
+}
+
+@mixin more-section {
+  .more-btn {
+    display: none;
+  }
+}
+
+@mixin display-none {
+  display: none;
+}

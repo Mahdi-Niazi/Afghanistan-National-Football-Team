@@ -1,0 +1,40 @@
+
+.top-nav {
+  position: sticky;
+  top: 0;
+  z-index: 1042;
+  background-color: $temp-black-color;
+
+  a {
+    font-size: 12px;
+
+    &:hover {
+      color: $temp-gray-color;
+    }
+  }
+}
+
+.top-nav-container {
+  height: 20px;
+}
+
+.main-nav {
+  position: sticky;
+  top: 36px;
+  z-index: 1042;
+  background-color: white;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 20px 0 rgba(0, 0, 0, 0.1);
+
+  .container {
+    height: 60px;
+  }
+
+  .compaign {
+    margin-left: 55px;
+
+    a {
+      color: $temp-orange-color;
+      border: 2px solid $temp-orange-color;
+    }
+  }
+}
