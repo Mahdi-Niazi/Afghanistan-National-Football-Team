@@ -117,7 +117,7 @@ Test for Linters For tracking linter errors locally you need to follow these ste
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 ##  Live Demo <a name="live-demo"></a>
 
-- [Afghanistan National Team Club]()
+- [Afghanistan National Team Club](https://mahdi-niazi.github.io/Capstone-Project-HTML-CSS-JS/index.html)
 
 ## 🤝 Contributing <a name="contributing"></a>
 
