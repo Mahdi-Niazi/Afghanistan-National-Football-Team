@@ -1,0 +1,72 @@
+
+.abt-txt {
+  p {
+    text-align: center;
+  }
+}
+
+.abt-date {
+  p {
+    text-align: center;
+  }
+
+  .contact-email {
+    text-decoration: underline;
+    font-weight: 400;
+  }
+}
+
+.abt {
+  h1 {
+    color: $temp-orange-color;
+    text-align: center;
+  }
+}
+
+.logo-section {
+  border-bottom: 1px solid $temp-gray-color;
+  padding: 34px 0;
+
+  h3,
+  p {
+    text-align: center;
+  }
+
+  .logo {
+    padding: 2% 10%;
+    margin: 0 auto;
+  }
+}
+
+.history-section {
+  h3 {
+    text-align: center;
+  }
+
+  h2,
+  p {
+    text-align: center;
+  }
+
+  .history-bg-1 {
+    @include bg($history-bg-1);
+
+    padding: 145px;
+  }
+
+  .history-bg-2 {
+    @include bg($history-bg-2);
+
+    padding: 150px;
+  }
+}
+
+.abt-footer {
+  padding: 34px 0;
+  background-color: $temp-black-color;
+
+  h5,
+  p {
+    color: white;
+  }
+}

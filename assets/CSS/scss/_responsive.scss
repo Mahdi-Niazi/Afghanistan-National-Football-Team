@@ -1,0 +1,220 @@
+
+@media (max-width: $breakpoint-tablet) {
+  .top-nav {
+    @include display-none();
+  }
+
+  .compaign {
+    @include display-none();
+  }
+
+  .logo-section {
+    .logo {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .nav {
+    position: fixed;
+    top: 0;
+    z-index: 1042;
+    width: 100%;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 20px 0 rgba(0, 0, 0, 0.1);
+
+    .hamburger {
+      .fa-bars {
+        display: block;
+        font-size: 24px;
+      }
+    }
+
+    .nav-container {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      width: 100%;
+      height: 76px;
+
+      .logo {
+        display: none;
+      }
+
+      .nav-list {
+        position: absolute;
+        left: -100%;
+        top: 60px;
+        gap: 0;
+        flex-direction: column;
+        background-color: white;
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+        transition: 0.3s;
+        display: flex;
+        align-items: center;
+      }
+
+      .nav-list.active {
+        left: 0;
+      }
+
+      li {
+        list-style: none;
+        text-align: center;
+        width: 80%;
+        padding: 16px 0;
+      }
+
+      a {
+        padding: 10px;
+        text-decoration: none;
+        line-height: 20px;
+        font-size: 24px;
+      }
+
+      .selected {
+        color: $temp-orange-color;
+      }
+
+      .compaign {
+        margin-left: 55px;
+
+        a {
+          color: $temp-orange-color;
+          border: 2px solid $temp-orange-color;
+        }
+      }
+    }
+  }
+
+  .logo.active {
+    display: none;
+  }
+
+  .fa-bars.active {
+    opacity: 1;
+  }
+
+  .header-container {
+    gap: 20px;
+  }
+
+  .main-program {
+    .main-cards {
+      display: flex;
+      align-self: center;
+      align-items: center;
+      width: 100%;
+
+      i {
+        width: 100px;
+      }
+
+      h3 {
+        width: 231px;
+        text-align: left;
+      }
+
+      p {
+        width: 300px;
+        text-align: left;
+      }
+    }
+
+    .row-posts {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .btn-see-more {
+      background-color: $temp-orange-color;
+      color: white;
+      padding: 32px;
+      text-decoration: none;
+      width: 100%;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    .btn-see-more::after {
+      content: 'Join us';
+      font-size: 24px;
+    }
+  }
+
+  .feature-players {
+    .players-feature {
+      max-height: 306px;
+      overflow: hidden;
+    }
+
+    .players {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .guest-player-1 {
+      padding: 10px 10px;
+      width: 144px;
+      height: 100%;
+    }
+
+    .txt-cus {
+      h3 {
+        font-size: 14px;
+      }
+
+      p {
+        font-size: 10px;
+      }
+    }
+  }
+
+  .more-btn {
+    text-align: center;
+    border: 1px solid $temp-gray-color;
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    color: $temp-black-color;
+
+    .fa-chevron-down {
+      color: $temp-orange-color;
+      font-size: 14px;
+      margin: 4px;
+    }
+  }
+
+  .partners {
+    .logos {
+      display: flex;
+      flex-wrap: nowrap;
+    }
+
+    .partners-logo {
+      width: 100%;
+    }
+  }
+
+  .history-section {
+    .history-bg-1 {
+      @include bg($history-bg-1);
+
+      padding: 20%;
+    }
+
+    .history-bg-2 {
+      @include bg($history-bg-2);
+
+      padding: 20%;
+    }
+  }
+
+  .footer {
+    gap: 24px;
+  }
+}

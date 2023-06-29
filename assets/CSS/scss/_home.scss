@@ -1,0 +1,128 @@
+.intro-sec {
+  position: relative;
+  gap: 10px;
+  padding: 200px 0 100px 0;
+  min-height: 100vh;
+}
+
+.intro-sec::before {
+  @include bg($intro-bg);
+
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+
+  .header-container {
+    height: 100vh;
+  }
+}
+
+.intro-header {
+  background: $text-bg no-repeat;
+  background-size: 100vw;
+  color: transparent;
+  background-clip: text;
+}
+
+.intro-p {
+  p {
+    font-size: 1.45rem;
+    color: $temp-orange-color;
+  }
+
+  h1 {
+    @include font-cocogoose--uppercase();
+  }
+}
+
+.header-description {
+  border: 1px solid white;
+  background-color: $temp-gray-color;
+}
+
+.main-program {
+  @include bg($main-event-bg);
+
+  .main-txt {
+    text-align: center;
+  }
+
+  .txt-orange {
+    color: $temp-orange-color;
+  }
+
+  .icons {
+    font-size: 40px;
+  }
+
+  .main-cards {
+    background-color: #d3d3d338;
+    text-align: center;
+    padding: 24px;
+    gap: 20px;
+  }
+
+  .main-cards:hover {
+    border: 1px solid white;
+    cursor: pointer;
+  }
+
+  .main-see-txt {
+    text-align: center;
+  }
+
+  .btn-see-more {
+    color: white;
+    border-radius: none;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+.feature-players {
+  .players-feature {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .guest-player-1 {
+    width: 100%;
+    height: 100%;
+  }
+
+  .players {
+    display: flex;
+  }
+
+  .border-players {
+    border-bottom: 2px solid $temp-gray-color;
+    width: 20px;
+  }
+
+  .player-position {
+    color: $temp-orange-color;
+  }
+
+  .feature-txt {
+    text-align: center;
+  }
+}
+
+.logos {
+  display: flex;
+}
+
+.partners {
+  background-color: $temp-black-color;
+
+  .main-txt {
+    text-align: center;
+  }
+
+  .partners-logo {
+    width: 70%;
+  }
+}
