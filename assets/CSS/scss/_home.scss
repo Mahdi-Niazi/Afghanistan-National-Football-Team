@@ -1,25 +1,23 @@
-
 .intro-sec {
   position: relative;
   gap: 10px;
-  padding: 200px 20px 100px 20px;
+  padding: 200px 0px 100px 0px;
   min-height: 100vh;
 }
 
 .intro-sec::before {
   @include bg($intro-bg);
-
   display: block;
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
-
   .header-container {
     height: 100vh;
   }
 }
+
 
 .intro-header {
   background: $text-bg no-repeat;
