@@ -1,23 +1,24 @@
 .intro-sec {
   position: relative;
   gap: 10px;
-  padding: 200px 0px 100px 0px;
+  padding: 200px 0 100px 0;
   min-height: 100vh;
 }
 
 .intro-sec::before {
   @include bg($intro-bg);
+
   display: block;
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
+
   .header-container {
     height: 100vh;
   }
 }
-
 
 .intro-header {
   background: $text-bg no-repeat;
@@ -123,19 +124,5 @@
 
   .partners-logo {
     width: 70%;
-  }
-}
-
-.logo-section {
-  border-bottom: 1px solid $temp-gray-color;
-
-  h3,
-  p {
-    text-align: center;
-  }
-
-  .logo {
-    padding: 2% 10%;
-    margin: 0 auto;
   }
 }

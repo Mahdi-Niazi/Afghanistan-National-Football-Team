@@ -22,8 +22,20 @@
     text-align: center;
   }
 }
-.logo-section{
-  padding: 34px 0px;
+
+.logo-section {
+  border-bottom: 1px solid $temp-gray-color;
+  padding: 34px 0;
+
+  h3,
+  p {
+    text-align: center;
+  }
+
+  .logo {
+    padding: 2% 10%;
+    margin: 0 auto;
+  }
 }
 
 .history-section {
@@ -50,7 +62,7 @@
 }
 
 .abt-footer {
-  padding: 34px 0px;
+  padding: 34px 0;
   background-color: $temp-black-color;
 
   h5,
