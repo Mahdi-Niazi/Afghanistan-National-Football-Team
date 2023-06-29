@@ -117,12 +117,12 @@ Test for Linters For tracking linter errors locally you need to follow these ste
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 ##  Live Demo <a name="live-demo"></a>
 
-- [Afghanistan National Team Club](https://www.loom.com/share/1d9b5914030243b0b04d1a925bc42099?sid=020b4ede-6923-4448-b9d1-f808feab1fa2)
+- [Afghanistan National Team Club](https://mahdi-niazi.github.io/Capstone-Project-HTML-CSS-JS/index.html)
 
 
 ##  Video <a name="Video"></a>
 
-- [Introduction Video to the Website](https://www.loom.com/share/069b6eee079c41ff826474479de829a7)
+- [Introduction Video to the Website](https://www.loom.com/share/1d9b5914030243b0b04d1a925bc42099?sid=5d28d186-aefc-4297-ab0f-98c498d3844e)
 
 ## 🤝 Contributing <a name="contributing"></a>
 
