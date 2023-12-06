@@ -20,14 +20,14 @@ const playerDetails = [
     fullName: 'Islam Amiri',
     position: 'Centre-back',
     description: 'Amiri made his debut in the 2005 SAFF Gold Cup against Maldives.',
-    playerImage: 'assets/images/guest-player-1.png',
+    playerImage: '/assets/images/guest-player-1.png',
     altText: 'Islam Amiri',
   },
   {
     fullName: 'Faysal Shayesteh',
     position: 'Attacking midfielder',
     description: 'Born in Kabul, Shayesteh moved to the Netherlands and played in the youth academy',
-    playerImage: 'assets/images/guest-player-2.png',
+    playerImage: '/assets/images/guest-player-2.png',
     altText: 'Faysal Shayesteh',
   },
   {
